@@ -352,14 +352,15 @@
             <span class="section-subtitle">Contact Me</span>
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact__container bd-grid">
-                <form action="" class="action__form">
+                <form action="contact.php" method="post" role="form" class="php-email-form action__form">
                     <div class="contact__inputs">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
+                        <input type="text" name="name" id="name" placeholder="Name" class="contact__input">
+                        <input type="mail" name="email" id="email" placeholder="Email" class="contact__input">
                     </div>
-                    <input type="text" placeholder="Project" class="contact__input">
-                    <textarea name="" id="" cols="" rows="10" placeholder="Message" class="contact__input"></textarea>
-                    <input type="submit" value="Send Message" class="button contact__button"> 
+                    <input type="text" name="subject" id="subject" placeholder="Subject" class="contact__input">
+                    <textarea name="message" id="" cols="" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+                    <input type="submit"  value="Send Message" class="button contact__button"> 
                 </form>
                 <div>
                     <div class="contact__info">
