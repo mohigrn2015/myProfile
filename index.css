@@ -544,6 +544,9 @@ margin-bottom: var(--mb-2);
 .footer__copy{
     font-size: var(--smaller-font-size);    
 }
+.linkColor{
+    color: #4900f3;
+}
 @media screen and (min-width:500px){
     .home__button{
         width: initial;
